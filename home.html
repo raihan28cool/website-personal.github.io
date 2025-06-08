@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-
+scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('cewek.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        h1{
+            font-size:100%;
+            text-shadow: 0 0 5px Blue;
+        }
+    
+        p{
+            font-size: 170%;
+            text-shadow: 0 0 5px Blue;
+        }
+       section.skills {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .skill {
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: fadeInSkill 1s ease forwards;
+    }
+
+    .skill:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .skill:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    .skill:nth-child(4) {
+      animation-delay: 0.6s;
+    }
+
+    @keyframes fadeInSkill {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .skill-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #000000;
+      text-shadow: 0 0 5px Blue;
+    }
+
+    .skill-bar {
+      height: 16px;
+      background: #333;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .skill-bar-fill {
+      height: 100%;
+      background: linear-gradient(to right, #000000, #FFFFFF);
+      width: var(--width);
+      border-radius: 8px;
+      transition: width 1.5s ease;
+    }
+     nav a {
+     margin-right: 20px;
+     text-decoration: none;
+     color: White;
+     text-shadow: 0 0 5px Blue;
+    }
+    </style>
+    
+     
+</head>
+<body>
+    <nav>
+    <a href="home.html">home</a>
+    <a href="buku tamu.html">Buku tamu</a>
+    <a href="galery.html">Galery</a>
+    <a href="contact.html">Contack</a>
+    <a href="about.html">About</a>
+  </nav>
+    <header style="text-align: center;">
+    <img src="waifuaing.jpg" width="200" height="200" style="border-radius: 50%;"/>
+    <h1 align="center" style="color: White;">Bagian Profile</h1>
+    <p style="color: White;">Selamat datang di website Saya</p>
+
+
+            <section class="skills">
+    <h2 class="skill-title"align="center" style="color: White;">Skill Coding:</h2>
+    <div class="skill">
+      <div class="skill-title" style="color: white;">HTML/CSS</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill" style="--width: 60%;"></div>
+
+      </div>
+      <div class="skill-title" style="color: white;">PYTHON</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill" style="--width: 75%;"></div>
+
+      </div>
+      <div class="skill-title" style="color: white;">SQL</div>
+
+      <div class="skill-bar">
+        <div class="skill-bar-fill" style="--width: 70%;"></div>
+      </div>
+    </div>
+    <footer style="text-align: center;">
+    <p style="color: White; font-size: 17px;">Copyright &copy; 2025 Raihan Azizul Hakim-Gamers And wibu hehe:)</p>
+
+    </footer>
+</body>
+</html>

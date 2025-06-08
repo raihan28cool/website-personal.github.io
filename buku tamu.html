@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar HTML - Membuat Form</title>
+    <style>
+        
+        table {
+            color: #B5B5B5;
+        }
+
+         body {
+            background-image: url('sungai1.gif');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+         h1{
+            font-size:100%;
+            text-shadow: 0 0 5px Blue;
+        }
+         nav a {
+         margin-right: 20px;
+         text-decoration: none;
+         color: white;
+         text-shadow: 0 0 5px Blue;
+         
+        }
+   </style>
+    </head>
+<body> 
+    <nav>
+    <a href="home.html">home</a>
+    <a href="buku tamu.html">Buku tamu</a>
+    <a href="galery.html">Galery</a>
+    <a href="contact.html">Contack</a>
+    <a href="about.html">About</a>
+  </nav>
+
+<form action="prosessForm.php" method="GET">
+<!-- letakkan field di sini -->
+<fieldset>
+<legend style="text-align: center;"><h1 style="color: #B5B5B5;">Buku Tamu</h1></legend>
+
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td><textarea name="komentar" rows="2" cols="40" placeholder="Masukan nama" style="color: #B5B5B5;"></textarea></td>
+
+
+    <tr>
+        <td>Tempat tanggal lahir</td>
+        <td>:</td>
+        <td><textarea name="komentar" rows="2" cols="40" placeholder="Tempat Tanggal Lahir Kamu" style="color: #B5B5B5;"></textarea></td>
+
+    </tr>
+
+    <tr>
+        <td>Agama</td>
+        <td>:</td>
+        <td>
+           <select name="agama" style="color:#B5B5B5">
+            <option value="islam"> Islam</option>
+            <option value="kristen"> Kristen</option>
+            <option value="katolik"> Katolik</option>
+            <option value="budha"> Budha</option>
+            <option value="hindu"> Hindu</option>
+        </select></td>
+    </tr>
+
+    <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td><textarea name="komentar" rows="2" cols="40" placeholder="Alamat Kamu" style="color: #B5B5B5;"></textarea></td>
+
+        
+
+
+   <tr>
+        <td>No telepon/hp</td>
+        <td>:</td>
+        <td><textarea name="komentar" rows="2" cols="40" placeholder="No Telepon Kamu" style="color: #B5B5B5;"></textarea></td>
+
+
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td>
+         <input type="radio" name="jenisKelamin" id="pria" />
+         <label for="pria" style="color: #B5B5B5;">Pria</label>
+         <input type="radio" name="jenisKelamin" id="wanita" />
+         <label for="wanita" style="color: #B5B5B5;">Wanita</label>
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>Hobi</td>
+        <td>:</td>
+        <td><textarea name="komentar" rows="2" cols="40" placeholder="Hobi Kamu" style="color: #B5B5B5;"></textarea></td>
+
+    
+    
+    <tr>
+        <td>Pesan</td>
+        <td>:</td>
+        <td><textarea name="komentar" rows="2" cols="40" placeholder="Komentar" style="color: #B5B5B5;"></textarea></td>
+
+    
+
+</table>
+</fieldset>
+
+</form>
+  <footer style="text-align: center;">
+  <h1 style="color: #B5B5B5;">Silahkan di isi ya:D</h1>
+  <p style="color: #F7F7FF">Copyright &copy; 2025 Raihan Azizul hakim-Gamers</p>
+
+       
+</body>
+</html>
